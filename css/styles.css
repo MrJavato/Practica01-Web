@@ -1,4 +1,21 @@
-/* .carousel-inner {
+/* .menu {
+
+
+}
+
+.carousel-inner {
     width: 100%;
-    height: 50em;
+    height: 100vh;
+    
+} 
+
+.container {
+    max-width: 100%;
+    height: 100vh;
+    padding: 0;
+}
+
+.carousel-caption{
+    position: absolute;
+    margin-bottom: 100px;
 } */
