@@ -1,10 +1,25 @@
-.menu {
-position:absolute;
-z-index:10;
-background-color: rgba(255, 0, 0, 0.5);
-
-
+.menus {
+    position:absolute;
+    z-index:10;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    
 }
+
+
+.carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
 
 /*.carousel-inner {
     width: 100%;
