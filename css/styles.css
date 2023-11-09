@@ -1,21 +1,40 @@
-/* .menu {
 
+/*--Página 3--*/
+#subscripcion {
+max-width: 100%;
+}
+
+.row {
+justify-content: center;
+padding: 5%;
+}
+
+#move {
+display: flex;
+flex-direction: column;
+align-items: left;
+text-align: left;
+padding: 5%;
+background-color: rgb(210, 210, 210);
+box-shadow: 6px 20px 10px rgb(87, 87, 87, 50%);
+}
+
+#move h1 {
+margin-bottom:5%;
 
 }
 
-.carousel-inner {
-    width: 100%;
-    height: 100vh;
-    
-} 
-
-.container {
-    max-width: 100%;
-    height: 100vh;
-    padding: 0;
+.button {
+   margin-top: 5%;
+   text-align: center;
 }
 
-.carousel-caption{
-    position: absolute;
-    margin-bottom: 100px;
-} */
+.col-md-4 {
+ width: 100%;
+ margin-top: 2%;
+}
+
+.col-12 {
+    margin-top: 5%;
+}
+
