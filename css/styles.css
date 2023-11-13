@@ -2,7 +2,7 @@
     position:absolute;
     z-index:10;
     position: fixed;
-    background-color: rgb(25, 29, 49);
+    background-color: rgb(33, 37, 41);
     width: 100%;
     font-weight: 700;
     /* font-size: 1.5em; */
@@ -30,7 +30,9 @@
     padding-top: 150px;
   }
 
-
+.controlslidebotes {
+    padding-top: 500px;
+}
 
 /*.carousel-inner {
     width: 100%;
