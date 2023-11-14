@@ -1,7 +1,11 @@
 
+body{
+    background-image: url(/img/fondo1.png);
+    background-attachment: fixed;
+  }
 /*--Página 3--*/
 #subscripcion {
-max-width: 100%;
+width: 100%;
 }
 
 .row {
@@ -15,8 +19,11 @@ flex-direction: column;
 align-items: left;
 text-align: left;
 padding: 5%;
-box-shadow: 10px 20px 10px 10px rgb(87, 87, 87, 50%);
-background-image: url(../img/textura\ papel.jpeg);
+/* box-shadow: 10px 20px 10px 10px rgb(87, 87, 87, 50%); */
+/* background-image: url(../img/textura\ papel.jpeg); */
+background-color: rgba(33, 37, 41, 0.5);
+color: aliceblue;
+border-radius: 10px;
 }
 
 #move h1 {
@@ -37,9 +44,7 @@ margin-bottom:5%;
     margin-top: 5%;
 }
 
-#subscripcion {
-    background-image: url();
-}
+
 
 .menus {
     position:absolute;
@@ -54,7 +59,6 @@ margin-bottom:5%;
     padding-right: 70px;
     /* padding-top: 15px; */
     
-<<<<<<< Updated upstream
 }
 
 .carousel-item {
@@ -65,6 +69,11 @@ margin-bottom:5%;
     -o-background-size: cover;
     background-size: cover;
   }
-=======
-}
->>>>>>> Stashed changes
+
+
+  /* .imagenfondocontacto {
+    background-image: url(/img/Imagen2.jpg);
+  } */
+
+
+  
