@@ -1,154 +1,154 @@
-/*--Página 3--*/
-#subscripcion {
-width: 100%;
-padding-top: 70px;
-}
-
-.row {
-justify-content: center;
-/* padding: 5%; */
-}
-
-#move {
-display: flex;
-flex-direction: column;
-align-items: left;
-text-align: left;
-padding: 50px;
-/* box-shadow: 10px 20px 10px 10px rgb(87, 87, 87, 50%); */
-/* background-image: url(../img/textura\ papel.jpeg); */
-background-color: rgba(33, 37, 41, 0.75);
-color: aliceblue;
-border-radius: 15px;
-}
-
-#move h1 {
-margin-bottom:5%;
-}
-
-.button {
-   margin-top: 5%;
-   text-align: center;
-}
-
-.col-md-4 {
- width: 100%;
- margin-top: 2%;
-}
-
-.col-12 {
-    margin-top: 5%;
-}
-
-
+/*--Página 1--*/
 
 .menus {
     position:absolute;
     z-index:10;
     position: fixed;
-    background-color: rgb(33, 37, 41);
+    background-color: rgba(33, 37, 41, 0.75);
     width: 100%;
     font-weight: 550;
     /* font-size: 1.5em; */
     padding-left: 70px;
-    padding-right: 70px;
+    padding-right:70px;
     /* padding-top: 15px; */
-    
-}
-
-.contenedorcarousel {
-  max-height: 60vh;
 }
 
 .carousel-item {
-    height: 100vh;
+    height: 100%;
     background: no-repeat center center scroll;
     background-size: cover;
-
-    
-  }
+    }
 
   .textocarousel h1 {
-    font-size: 85px;
+    font-size: 400%;
     text-align: center;
   }
   .textocarousel p {
-    font-size: 35px;
+    font-size: 80%;
     text-align: center;
   }
 
+  .navbar-dark {
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    }
+  
+    .navbar-dark .navbar-brand:focus,
+    .navbar-dark .navbar-brand:hover{
+    color: #fff;
+    }
+  
+    .navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    }
+  
+    .navbar-dark .navbar-nav .nav-link:focus,
+    .navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(255, 193, 7);
+    }
+  
+    .espaciomenu {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+  
+  .textocarousel:focus,
+  .textocarousel:hover{
+    color: #fff;
+  }
+  
+  .textocarousel .carousel-caption:focus,
+  .textocarousel .carousel-caption:hover{
+    color: rgb(255, 193, 7);
+  }
+  
+  #bodyindex {
+    background-color: rgb(33, 37, 41);
+  }
 
+  /*--Página 2--*/
+  
+  .titulocolores {
+    padding-top: 125px;
+    margin-bottom: 50px;
+  
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .titulocolores h1 {
+    font-weight: bold;
+  }
 
+/*--Página 3--*/
 
+#card-events {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+  justify-content: space-around;
+  }
 
+/*--Página 4--*/
+
+  #subscripcion {
+  width: 100%;
+  padding-top: 70px;
+  }  
 
   .fondocontacto {
     background-size: cover;
     min-height: 99vh;
     position: relative;
     color: white;
+  }
 
+  .button {
+    margin-top: 5%;
+    text-align: center;
+  }
+ 
+  .col-md-4 {
+  width: 100%;
+  margin-top: 2%;
+  }
+ 
+  .col-12 {
+     margin-top: 5%;
+  }
 
+  .row {
+    justify-content: center;
+    /* padding: 5%; */
+    }
     
-}
-
-.navbar-dark {
-  color: #fff;
-  font-size: 17px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 2px;
-  
-}
-
-.navbar-dark .navbar-brand:focus,
-.navbar-dark .navbar-brand:hover{
-  color: #fff;
-}
-
-.navbar-dark .navbar-nav .nav-link{
-  color: #fff;
-}
-
-.navbar-dark .navbar-nav .nav-link:focus,
-.navbar-dark .navbar-nav .nav-link:hover{
-  color: rgb(255, 193, 7);
-}
-
-.espaciomenu {
-  list-style: none;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.textocarousel:focus,
-.textocarousel:hover{
-  color: #fff;
-}
-
-.textocarousel .carousel-caption:focus,
-.textocarousel .carousel-caption:hover{
-  color: rgb(255, 193, 7);
-}
-
-#bodyindex {
-  background-color: rgb(33, 37, 41);
-}
-
-.titulocolores {
-  padding-top: 125px;
-  margin-bottom: 50px;
-
-  text-transform: uppercase;
-  text-align: center;
-  align-items: center;
-}
-
-.titulocolores h1 {
-  font-weight: bold;
-}
+    #move {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 50px;
+    /* box-shadow: 10px 20px 10px 10px rgb(87, 87, 87, 50%); */
+    /* background-image: url(../img/textura\ papel.jpeg); */
+    background-color: rgba(33, 37, 41, 0.75);
+    color: aliceblue;
+    border-radius: 15px;
+    }
+    
+    #move h1 {
+    margin-bottom:5%;
+    }
 
 
 /* .galeria > figure > figcaption {
