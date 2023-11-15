@@ -1,62 +1,69 @@
-/*--Página 1--*/
-
-.menus {
+/*--Menu--*/
+  .menus {
     position:absolute;
     z-index:10;
     position: fixed;
     background-color: rgba(33, 37, 41, 0.75);
     width: 100%;
     font-weight: 550;
-    /* font-size: 1.5em; */
     padding-left: 70px;
     padding-right:70px;
-    /* padding-top: 15px; */
-}
-
-.carousel-item {
-    height: 100%;
-    background: no-repeat center center scroll;
-    background-size: cover;
-    }
-
-  .textocarousel h1 {
-    font-size: 400%;
-    text-align: center;
-  }
-  .textocarousel p {
-    font-size: 80%;
-    text-align: center;
   }
 
   .navbar-dark {
-    color: #fff;
-    font-size: 17px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    }
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  }
+
+  .navbar-dark .navbar-brand:focus,
+  .navbar-dark .navbar-brand:hover{
+  color: #fff;
+  }
+
+  .navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:focus,
+  .navbar-dark .navbar-nav .nav-link:hover{
+  color: rgb(255, 193, 7);
+  }
+
+/*--Página 1--*/
+
+.contenedorcarusel {
+    max-height: 60vh;
+  }
+
+
+
+.carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    background-size: cover;
+  }
+    
+
+.textocarousel h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+.textocarousel p {
+    font-size: 30px;
+    text-align: center;
+  }
+
   
-    .navbar-dark .navbar-brand:focus,
-    .navbar-dark .navbar-brand:hover{
-    color: #fff;
-    }
-  
-    .navbar-dark .navbar-nav .nav-link{
-    color: #fff;
-    }
-  
-    .navbar-dark .navbar-nav .nav-link:focus,
-    .navbar-dark .navbar-nav .nav-link:hover{
-    color: rgb(255, 193, 7);
-    }
-  
-    .espaciomenu {
+  .espaciomenu {
     list-style: none;
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    }
+  }
   
   .textocarousel:focus,
   .textocarousel:hover{
@@ -87,7 +94,7 @@
     font-weight: bold;
   }
 
-/*--Página 3--*/
+/*--Página 4--*/
 
 #card-events {
   text-align: center;
@@ -100,11 +107,10 @@
   justify-content: space-around;
   }
 
-/*--Página 4--*/
+/*--Página 3--*/
 
   #subscripcion {
   width: 100%;
-  padding-top: 70px;
   }  
 
   .fondocontacto {
@@ -130,7 +136,7 @@
 
   .row {
     justify-content: center;
-    /* padding: 5%; */
+    padding: 5%;
     }
     
     #move {
@@ -139,8 +145,6 @@
     align-items: left;
     text-align: left;
     padding: 50px;
-    /* box-shadow: 10px 20px 10px 10px rgb(87, 87, 87, 50%); */
-    /* background-image: url(../img/textura\ papel.jpeg); */
     background-color: rgba(33, 37, 41, 0.75);
     color: aliceblue;
     border-radius: 15px;
