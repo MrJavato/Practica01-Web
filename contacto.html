@@ -10,80 +10,127 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
+<body>
 
-<header>
-  <div class="menus">
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
-                <img src="img/Logo3.png" height="30" alt="MontanaColoresLogo" />
-              </a>
-              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        
-                <div class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                          <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="colores.html">Colores</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="contacto.html">Contacto</a>   
-                        </li>
-                    </ul>
-                </div>
-                <div class="botonesregistro">
-                  <button type="button" class="btn btn-outline-light">
-                    Inicia Sesión
-                  </button>
-                  <button type="button" class="btn btn-outline-light">
-                    Registrarse
-                  </button>
-                </div>  
-            </div>
-        </nav>
-    </div>
-</div>
-</header>
-<!-- <header>
-  <div class="menu">
-    <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/Logo.png" alt="Logo" width="90" height="72" class="d-inline-block align-text-top">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Colores</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+  <header>
+    <div class="menus">
+      <div>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/Logo1.png" height="30" alt="MontanaColorsLogo" />
+                </a>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          
+                  <div class="navbar-nav me-auto mb-2 mb-lg-1">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="colores.html">Colores</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>   
+                          </li>
+                      </ul>
+                  </div>
+                    <button type="button" class="btn btn-outline-warning">
+                      SUBSCRIBIRSE
+                    </button>
+              </div>
+          </nav>
+      </div>
   </div>
-</header> -->
+  </header>
 
-<body id="bodycontacto">
+    <div class="fondocontacto"
+    style="background-image: url(https://ls.codetech.nl/shops/59317/files/343321010/montana-cans-montana-gold-acid-green-400-ml.jpg);">
+     <div class="color-overlay d-flex justify-content-center align-items-center">
+         <div id="subscripcion">
+ 
+             <form class="row g-3 needs-validation" novalidate>
+         
+                 <div id="move" style="width: 50rem;">
+                 
+                     <h1>SUBSCRIPCIÓN</h1>
+         
+                 <div class="col-md-4" style="opacity: 100%;">
+                   <label for="validationCustom01" class="form-label">Nombre</label>
+                   <input type="text" class="form-control" id="validationCustom01" value="Pepito" required>
+                   <div class="valid-feedback">
+                     Suena bien!
+                   </div>
+                 </div>
+                 <div class="col-md-4">
+                   <label for="validationCustom02" class="form-label">Apellidos</label>
+                   <input type="text" class="form-control" id="validationCustom02" value="Palo" required>
+                   <div class="valid-feedback">
+                     Suena bien!
+                   </div>
+                 </div>
+                 <div class="col-md-4">
+                   <label for="validationCustomUsername" class="form-label">Usuario</label>
+                   <div class="input-group has-validation">
+                     <span class="input-group-text" id="inputGroupPrepend">@</span>
+                     <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                     <div class="invalid-feedback">
+                       Por favor elija un nombre de usuario.
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-md-4">
+                   <label for="validationCustom03" class="form-label">Ciudad</label>
+                   <input type="text" class="form-control" id="validationCustom03" required>
+                   <div class="invalid-feedback">
+                     Por favor elija una ciudad válida.
+                   </div>
+                 </div>
+                 <div class="col-md-4">
+                   <label for="validationCustom04" class="form-label">Municipio</label>
+                   <select class="form-select" id="validationCustom04" required>
+                     <option selected disabled value="">Elija...</option>
+                     <option>...</option>
+                   </select>
+                   <div class="invalid-feedback">
+                     Por favor elija un municipio válido.
+                   </div>
+                 </div>
+                 <div class="col-md-4">
+                   <label for="validationCustom05" class="form-label">Zip</label>
+                   <input type="text" class="form-control" id="validationCustom05" required>
+                   <div class="invalid-feedback">
+                     Por favor elija un zip válido.
+                   </div>
+                 </div>
+                 <div class="col-12">
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                     <label class="form-check-label" for="invalidCheck">
+                       Estoy de acuerdo con los términos y condiciones de uso.
+                     </label>
+                     <div class="invalid-feedback">
+                       Debes estar de acuerdo con los términos y condiciones de uso para continuar.
+                     </div>
+                   </div>
+                 </div>
+                 <div class="button">
+                   <button class="btn btn-primary" type="submit">Aceptar</button>
+                 </div>
+              </div>
+             </form>
+         </div>
+ 
+     </div>
+     </div>
 
-<div id="subscripcion">
+
+
+  <!-- <div id="subscripcion">
 
     <form class="row g-3 needs-validation" novalidate>
 
@@ -160,6 +207,11 @@
 
     </form>
 
-</div>
+  </div> -->
+
+  <!-- <div class="bg-image" 
+  style="background-image: url(https://ls.codetech.nl/shops/59317/files/343321010/montana-cans-montana-gold-acid-green-400-ml.jpg);
+         height: 100vh">
+  </div> -->
 <script src="js/bootstrap.bundle.js"></script>
 </body>
