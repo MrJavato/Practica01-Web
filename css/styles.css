@@ -154,6 +154,27 @@
     margin-bottom:5%;
     }
 
+    .galeriapintura > figure > figcaption{
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        background-color: rgba(33, 37, 41, 0.75);
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2em;
+        transition: 0.5s;
+        color: #fff;
+    }
+
+   .galeriapintura > figure:hover > figcaption{
+    left: 0;
+   }
+
 
 /* .galeria > figure > figcaption {
   width: 100%;
