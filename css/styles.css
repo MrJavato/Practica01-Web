@@ -1,3 +1,7 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
 /*--Menu--*/
   .menus {
     position:absolute;
@@ -130,7 +134,7 @@
     transition: opacity 0.3s ease-in-out;
     font-size: 2em;
     background-color: rgba(33, 37, 41, 0.5);
-    color: #fff;
+    color: rgb(255, 193, 7);
     text-transform: uppercase;
     font-weight: bold;
     
@@ -211,11 +215,6 @@
   justify-content: space-around;
 }
   
-
-
-/* footer{
-  margin-top: 50px;
-} */
   
   
   
