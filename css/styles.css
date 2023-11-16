@@ -43,7 +43,6 @@
 
 /*--Página 1--*/
 
-
 .carousel-item {
   height: 100vh;
   background: no-repeat center center scroll;
@@ -111,7 +110,16 @@
     margin: 3%;
   }
 
-  .splash {
+  @media screen and (max-width: 993px) {
+    .descripcion {
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 3%;
+    }
 
   }
 
