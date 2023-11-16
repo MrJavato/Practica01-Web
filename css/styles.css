@@ -7,7 +7,7 @@
     position:absolute;
     z-index:10;
     position: fixed;
-    background-color: rgba(33, 37, 41);
+    background-color: rgba(33, 37, 41, 0.75);
     width: 100%;
     font-weight: 550;
     padding-left: 70px;
@@ -36,6 +36,9 @@
   color: rgb(255, 193, 7);
   }
 
+  footer {
+    
+  }
 
 
 /*--Página 1--*/
@@ -95,6 +98,23 @@
 
   }
 
+  .descripcion {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+  }
+
+  .descripcion p {
+    margin: 3%;
+  }
+
+  .splash {
+
+  }
+
   /*--Página 2--*/
   
   .titulocolores {
@@ -151,6 +171,72 @@
   }
 
   /*--Página 3--*/
+
+  
+
+  #card-events {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    justify-content: space-around;
+   }
+
+  .noviembre {
+    text-align: center;
+  }
+
+
+ .table-completa {
+  padding-bottom: 20%;
+  background-image: url(/img/Clientes-Montana_Colors.jpeg);
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  width: 100%;
+}
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #ffffff88;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  td:hover {
+    background-color: #f5f5f5;
+  }
+
+  @media screen and (max-width: 993px) {
+  
+    #card-events {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    justify-content: space-around;
+   }
+  
+    .card {
+      margin-bottom: 15%;
+    }
+
+    .table-completa {
+      border-collapse: collapse;
+      width: 100%;
+    }
+  }
+  
+  /*--Página 4--*/
   
   #subscripcion {
     padding: 5%;
@@ -159,6 +245,7 @@
   }  
   
   .fondocontacto {
+    background-image: url(https://www.montanacolors.com/content/imgsxml/blog/big183-mtn-brasil-interview-1342.jpg);
     background-size: cover;
     min-height: 100vh;
     position: relative;
@@ -181,6 +268,7 @@
 
 .row {
   justify-content: center;
+  padding: 2%;
 }
 
 #move {
@@ -197,23 +285,6 @@
   #move h1 {
     margin-bottom:5%;
   }
-  
-  
-  
-  
-  /*--Página 4--*/
-  
-  
-#card-events {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  background-color: aqua;
-  width: 100%;
-  height: 100%;
-  padding-top: 10%;
-  justify-content: space-around;
-}
   
   
   
